@@ -39,9 +39,9 @@ body{
 .instagram-continue{
     display:flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-around;
     flex-direction: column;
-    width: 80%;
+    width: 50%;
     min-height: 34rem;
 }
 
@@ -130,4 +130,32 @@ body{
 
 .app-download:nth-child(2){
     background-image: url(./img/googleplay-button.png);
+}
+
+/* Tablet */
+
+@media(max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+/* Celular */
+
+@media(max-width: 650px){
+    body{
+        background-color: #ffffff;
+    }
+    .instagram-wrapper{
+        width: 90%;
+    }
+    .instagram-phone{
+        display:none;
+    }
+    .instagram-continue{
+        width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
+    }
 }
