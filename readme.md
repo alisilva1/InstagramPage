@@ -1,1 +1,1 @@
-It´s a Instagram reconnect Page, created by course of Digital Innovation One (DIO), with i can train a Flexbox CSS.
+It´s a Instagram reconnect Page layout, created using a course DIO.
